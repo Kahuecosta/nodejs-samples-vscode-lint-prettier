@@ -6,6 +6,7 @@
   - Verificação de pardrão de escrita ECMAScript
 
 - Prettier
+  Instalar extensão do Prettier no VSCode
 
   - Auxilia o ESLint na padronização
 
