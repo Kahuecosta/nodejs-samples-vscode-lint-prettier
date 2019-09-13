@@ -2,6 +2,7 @@
 
 - ESLint
 
+  - Instalar extensão do ESLint no VSCode
   - Verificação de pardrão de escrita ECMAScript
 
 - Prettier
@@ -20,3 +21,5 @@
     - eslint.autoFixOnSave roda a verificação de lint e prettier no arquivo
   - vscode/launch.json: Configurações de debug do VSCode
     - preparado para debugar junto com o nodemon configurado no package.json
+
+###### Após tudo configurado devemos rodar o npm install ou yarn
