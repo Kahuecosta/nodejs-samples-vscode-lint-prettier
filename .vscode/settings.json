@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.wrappingIndent": "indent",
+    "editor.autoIndent": true,
+    "editor.useTabStops": true,
+    "editor.tabCompletion": "on",
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript"
+    ]
+}

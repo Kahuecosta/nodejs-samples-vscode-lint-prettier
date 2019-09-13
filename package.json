@@ -1,0 +1,24 @@
+{
+	"name": "nodejs-vscode-lint-prettier",
+	"version": "1.0.0",
+	"description": "Nodejs project with vscode configurations and eslint with prettier",
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js",
+		"start": "node src/index.js",
+		"debug": "nodemon --inspect src/index.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^6.2.1",
+		"eslint-config-prettier": "^6.1.0",
+		"eslint-config-standard": "^14.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^9.1.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"nodemon": "^1.19.1",
+		"prettier": "^1.18.2"
+	}
+}

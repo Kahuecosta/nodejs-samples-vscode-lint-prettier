@@ -1,18 +1,22 @@
-###### Integração Continua
+###### Modelo de projeto Nodejs com padronização de código
 
-- GCP Cloud Build com acionador configurado
-  - Configuração
-    - Dispara a partir de uma branch no Github (ex: google-dev ou google-prod)
-    - Executa os comandos do cloudbuild.yaml
-- Permissões (IAM)
-  - Usuário
-    - [ID]@cloudbuild.gserviceaccount.com
-  - Papeis
-    - Conta de serviço do Cloud Build
-    - Usuário da conta de serviço
-    - Administrador do Cloud Run
+- ESLint
 
-###### Garantia de padrão de código
+  - Verificação de pardrão de escrita ECMAScript
 
-- Combinação de ESLint, Prettier, .editorconfig e .vscode/settings.json
-- Para o EditorConfig funcionar é necessario instalar a extensão no VSCode e o package do NPM - NPM: npm install -g editorconfig
+- Prettier
+
+  - Auxilia o ESLint na padronização
+
+- Editorconfig
+
+  - Configura tipo de identação, tamanho de identação, encode de arquivo e etc..
+  - Necessário a instalação da extensão no VSCode
+  - Rodar o comando npm install -g editorconfig
+  - .editorconfig: Arquivo de configuração
+
+- VSCode
+  - vscode/settings.json: Configurações do editor do VSCode
+    - eslint.autoFixOnSave roda a verificação de lint e prettier no arquivo
+  - vscode/launch.json: Configurações de debug do VSCode
+    - preparado para debugar junto com o nodemon configurado no package.json
